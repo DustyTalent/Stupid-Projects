@@ -1,3 +1,7 @@
+# Didn't realise how broken my program was until after I uploaded for whatever 
+# reason it keeps repeating the "for" loop when it should be finished clicking.
+# Will fix later
+
 import pyautogui as pygoo
 import sys
 
@@ -33,4 +37,5 @@ try:
 
 except KeyboardInterrupt: #Ctrl-C to end program, as per usual
     print('Program Ended\n')
+
 
